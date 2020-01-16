@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Plantilla Grid</title>
+  <!--Estilos-->
+  <style>
+    /* Se aplica a las columnas */
+    .row>div {
+      background: #f2f2f2;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!--Container principal, en el iran todas las filas y columnas-->
+  <!-- En el container podemos centrar nuestra pagina -->
+  <div class="container">
+    <!--Filas son grupos HORIZONTALE de columnas-->
+    <div class="row">
+      <!--Todo el contenido debe ir dentro de columnas (col)-->
+      <!--Y las columnas deben ir directamente dentro de las filas (row)-->
+
+      <!--NUEVO:
+              Los tamaños de las columnas en Bootstrap 4 con:
+              .col Extra Pequeño (Extra Small) - Smartphones Vertical      Menos de 544px
+              .col-sm Pequeño (Samll) - Smartphones Vertical               Mas de 544px y Menos de 768px 
+              .col-md Mediano (Medium) - Tablets                           Mas de 768px y Menos de 992px
+              .col-lg Largo (Large) - Computadoras                         Mas de 992px y Menos de 1200px
+              .col-xl Extra Largo (Extra Large) - Coputadoraa              Mas de 1200px
+
+      -->
+
+
+      <!--Columna 1 con un tamaño de 12 col-->
+      <div class="col-12 col-sm-6 col-md">
+        <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui quas cupiditate aliquid nisi alias sunt
+          maxime voluptatem voluptatibus nemo impedit, eos facere totam rerum molestias harum deserunt, numquam fuga?
+        </p>
+      </div>
+
+      <!--Columna 2 con un tamaño de 6 col-->
+      <div class="col-12 col-sm-6 col-md">
+        <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui quas cupiditate aliquid nisi alias sunt
+          maxime voluptatem voluptatibus nemo impedit, eos facere totam rerum molestias harum deserunt, numquam fuga?
+        </p>
+      </div>
+
+      <!--Columna 3 con un tamaño de 6 col-->
+      <div class="col-12 col-sm col-md col-xl-12">
+        <h1>Titulo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente qui quas cupiditate aliquid nisi alias sunt
+          maxime voluptatem voluptatibus nemo impedit, eos facere totam rerum molestias harum deserunt, numquam fuga?
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

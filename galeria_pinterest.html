@@ -1,0 +1,51 @@
+<!-- https://getbootstrap.com/docs/4.0/components/card/ -->
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Plantilla</title>
+  </head>
+  <body>
+
+    <h1 class="text-center display-4 my-4">Galería de imágenes</h1>
+
+    <div class="container">
+
+      <div class="card-columns" id="galeriaId">   
+        
+        <script>
+          var imagenes = [1,2,3,4,5,6,7];
+          var galeriaId = document.getElementById('galeriaId');
+
+          for(imagen of imagenes){
+            galeriaId.innerHTML += `
+            <div class="card">
+          <a href="#" data-toggle="modal" data-target="#id${imagen}">
+            <img src="img/${imagen}.jpg" class="card-image-top img-fluid" alt="">          
+          </a>   
+        </div>
+
+        <!-- Modal exampleModal -->
+        <div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <img src="img/${imagen}.jpg" class="img-fluid rounded" alt="">
+          </div>
+        </div>`
+          }
+        </script>
+
+      </div>
+    </div>
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>   
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+  </body>
+</html>

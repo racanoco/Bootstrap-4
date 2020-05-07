@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Ventanas Modales</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row mt-3">
+          <div class="col">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#fm-modal">Abrir Modal</button>
+            <div class="modal fade" id="fm-modal" tabindex="-1" role="dialog" aria-labelledby="fm-modal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="">Titulo de la ventana</h5>
+                    <button class="close" data-dismiss="modal" arial-label="Cerrar">
+                      <span arial-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <h2>Hola Mundo</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio commodi amet, 
+                      nisi tempora esse voluptatem excepturi pariatur temporibus voluptatibus, 
+                      distinctio voluptates neque modi quibusdam odit officia, dignissimos dolore sed. 
+                      Dignissimos sint vel molestias ex perferendis quis ipsa soluta? Esse, dignissimos consequatur? 
+                      Ratione magnam, modi ab recusandae eius atque nostrum expedita non adipisci ducimus omnis nam est laudantium aspernatur! 
+                      Nesciunt dignissimos, esse voluptas ex sit modi dolores dolore quae quas optio sunt accusamus provident, at, repudiandae hic. 
+                      Officia neque ex temporibus nesciunt? Quisquam eos sunt beatae pariatur dolore, 
+                      odit incidunt quis numquam distinctio harum impedit non optio, rem officia obcaecati dolores!
+                    </p>
+                  </div>
+                </div>
+              </div>              
+            </div>
+
+            <button class="btn btn-primary" data-toggle="modal" data-target="#fm-modal-grid">Abrir Modal con Grid</button>
+            <div class="modal fade" id="fm-modal-grid" tabindex="-1" role="dialog" aria-labelledby="fm-modal-grid" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="">GRID</h5>
+                    <button class="close" data-dismiss="modal" arial-label="Cerrar">
+                      <span arial-hidden="true">&times;</span>
+                    </button>
+                  </div>
+
+                  <div class="modal-body">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-12 col-sm-6">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut nesciunt nemo nobis est neque doloribus quisquam,
+                             quos laborum qui dolore quasi temporibus id quam ad cupiditate cum corrupti in dolorem eligendi debitis explicabo? 
+                             Numquam dolor sapiente, quam provident ipsa nisi doloribus iusto voluptatibus necessitatibus sequi. Quod assumenda 
+                             vero quisquam exercitationem tempore ad dolorum similique aut beatae neque! Expedita a repudiandae molestiae quidem 
+                             id itaque voluptatum enim facilis, neque explicabo esse, culpa voluptas natus vel recusandae odio praesentium tenetur.
+                              Mollitia qui asperiores temporibus. Dicta error, reprehenderit nulla voluptatum vel repellat cum. Magni, dolores facere. 
+                              Non, nisi eos! Alias, totam voluptate.</p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora aut nesciunt nemo nobis est neque doloribus quisquam,
+                             quos laborum qui dolore quasi temporibus id quam ad cupiditate cum corrupti in dolorem eligendi debitis explicabo? 
+                             Numquam dolor sapiente, quam provident ipsa nisi doloribus iusto voluptatibus necessitatibus sequi. Quod assumenda 
+                             vero quisquam exercitationem tempore ad dolorum similique aut beatae neque! Expedita a repudiandae molestiae quidem 
+                             id itaque voluptatum enim facilis, neque explicabo esse, culpa voluptas natus vel recusandae odio praesentium tenetur.
+                              Mollitia qui asperiores temporibus. Dicta error, reprehenderit nulla voluptatum vel repellat cum. Magni, dolores facere. 
+                              Non, nisi eos! Alias, totam voluptate.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="modal-footer">
+                    <button class="btn btn-success">Aceptar</button>
+                    <button class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>              
+            </div>
+
+          </div>
+      </div>
+    </div>    
+
+    <script src="js/jquery-3.4.1.min.js"></script>       
+    <script src="js/bootstrap.min.js"></script>    
+  </body>
+</html>

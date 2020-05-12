@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">    
+    <!-- Línea necesaria para la correcta visualización en dispositivos móviles. -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Plantilla</title>    
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row mt-5">
+          <div class="col mt-5">
+            <h2>Popovers</h2>
+            <hr>
+
+            <button class="btn btn-primary" data-container="body" data-placement="top" data-toggle="popover" title="Titulo del popover" data-content="lorem ipsum mdsowednowndeownefojiwbnefjwbfjbnwfkdj">
+              Arriba
+            </button>
+            <button class="btn btn-primary" data-container="body" data-placement="left" data-toggle="popover" title="Titulo del popover" data-content="lorem ipsum mdsowednowndeownefojiwbnefjwbfjbnwfkdj">
+              Izquierda
+            </button>
+            <button class="btn btn-primary" data-container="body" data-placement="right" data-toggle="popover" title="Titulo del popover" data-content="lorem ipsum mdsowednowndeownefojiwbnefjwbfjbnwfkdj">
+              Derecha
+            </button>
+            <button class="btn btn-primary" data-container="body" data-placement="bottom" data-toggle="popover" title="Titulo del popover" data-content="lorem ipsum mdsowednowndeownefojiwbnefjwbfjbnwfkdj">
+              Abajo
+            </button>
+          </div>
+      </div>
+    </div>    
+
+    <script src="js/jquery-3.4.1.min.js"></script>   
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script>
+      $(function(){
+        $('[data-toggle="popover"]').popover();
+      })
+    </script>
+  </body>
+</html>

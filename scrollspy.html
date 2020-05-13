@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">    
+    <!-- Línea necesaria para la correcta visualización en dispositivos móviles. -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Scrollspy</title>
+    <style>
+      body {
+        position: relative;
+        /* padding-top: 54px; */
+      }
+
+      .fm-nav a {
+        color: #fff;
+        padding: 15px;
+      }
+
+      .fm-nav .active, .fm-nav a:hover {
+        background: rgba(255, 255, 255, .1);
+      }
+
+      .seccion {
+        margin-bottom: 1000px;
+      }
+
+      .seccion .columna {
+        padding-top: 100px;
+      }
+    </style>   
+  </head>
+  <body data-spy="scroll" data-target="#fm-nav">
+
+    <div class="container">
+      <div class="row">
+          <div class="col">
+            <div id="fm-nav">
+              <ul class="fm-nav nav fixed-top navbar-inverse bg-primary">
+                <li class="nav-item">
+                  <a href="#seccion1" class="nav-link">Seccion #1</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#seccion2" class="nav-link">Seccion #2</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#seccion3" class="nav-link">Seccion #3</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+
+      <div class="row seccion" id="seccion1">
+        <div class="col-12 columna">
+          <h2>Seccion 1</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem natus dolorem totam quos quo omnis laborum commodi, 
+            odio repellendus itaque. Harum ea, non provident nisi sapiente hic excepturi velit voluptatum dolores placeat adipisci 
+            maiores aliquid neque cumque repellendus aliquam ab corporis quos incidunt saepe ut deserunt? Culpa vitae debitis aliquid 
+            quam error dolor necessitatibus? Asperiores, nihil. Repellat assumenda saepe iste nihil, quaerat quas magni? Deleniti cum a modi, 
+            inventore quam repellendus, voluptatum, quasi soluta hic quibusdam tempore? Excepturi sequi deleniti aspernatur error saepe 
+            dignissimos officiis eaque ullam sint quia? Similique, quae. Distinctio, deserunt aliquid? Quo, at quaerat. Velit, ipsam.
+          </p>
+        </div>
+      </div>
+
+      <div class="row seccion" id="seccion2">
+        <div class="col-12 columna">
+          <h2>Seccion 2</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem natus dolorem totam quos quo omnis laborum commodi, 
+            odio repellendus itaque. Harum ea, non provident nisi sapiente hic excepturi velit voluptatum dolores placeat adipisci 
+            maiores aliquid neque cumque repellendus aliquam ab corporis quos incidunt saepe ut deserunt? Culpa vitae debitis aliquid 
+            quam error dolor necessitatibus? Asperiores, nihil. Repellat assumenda saepe iste nihil, quaerat quas magni? Deleniti cum a modi, 
+            inventore quam repellendus, voluptatum, quasi soluta hic quibusdam tempore? Excepturi sequi deleniti aspernatur error saepe 
+            dignissimos officiis eaque ullam sint quia? Similique, quae. Distinctio, deserunt aliquid? Quo, at quaerat. Velit, ipsam.
+          </p>
+        </div>
+      </div>
+
+      <div class="row seccion" id="seccion3">
+        <div class="col-12 columna">
+          <h2>Seccion 3</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem natus dolorem totam quos quo omnis laborum commodi, 
+            odio repellendus itaque. Harum ea, non provident nisi sapiente hic excepturi velit voluptatum dolores placeat adipisci 
+            maiores aliquid neque cumque repellendus aliquam ab corporis quos incidunt saepe ut deserunt? Culpa vitae debitis aliquid 
+            quam error dolor necessitatibus? Asperiores, nihil. Repellat assumenda saepe iste nihil, quaerat quas magni? Deleniti cum a modi, 
+            inventore quam repellendus, voluptatum, quasi soluta hic quibusdam tempore? Excepturi sequi deleniti aspernatur error saepe 
+            dignissimos officiis eaque ullam sint quia? Similique, quae. Distinctio, deserunt aliquid? Quo, at quaerat. Velit, ipsam.
+          </p>
+        </div>
+      </div>
+
+    </div>    
+
+    <script src="js/jquery-3.4.1.min.js"></script>       
+    <script src="js/bootstrap.min.js"></script>    
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">    
+    <!-- Línea necesaria para la correcta visualización en dispositivos móviles. -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Plantilla</title>    
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row mt-5">
+          <div class="col">
+            <p>
+              Lorem ipsum <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip en enlace">dolor sit amet</a> consectetur adipisicing elit. Debitis rerum iste aut alias commodi, 
+              magni itaque nobis, eaque obcaecati vel ut velit libero, error voluptatem! Itaque ipsam quia culpa. 
+              Doloremque quo temporibus dolor ducimus doloribus ipsa excepturi distinctio! Quasi facere consectetur ea maiores 
+              aliquam <a href="#" data-toggle="tooltip" data-placement="top" title="www.google.com">debitis odit esse eveniet</a> mollitia. Quibusdam esse itaque facere tempore consequatur, vel porro aperiam iure 
+              corporis quam voluptate aliquam accusantium officiis necessitatibus iste sunt veniam eum! Obcaecati quis numquam 
+              voluptate non iusto tenetur alias voluptatibus neque, dolorum error voluptas quam ipsum odio magnam minima esse? 
+              Reprehenderit cupiditate perferendis debitis totam laboriosam neque maiores numquam repellat placeat?
+            </p>
+            <button class="btn btn-primary" data-toggle="tooltip" data-placement="top" title="Tooltip en Boton">Boton</button>
+            <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" title="Tooltip en Boton">Boton</button>
+            <button class="btn btn-primary" data-toggle="tooltip" data-placement="left" title="Tooltip en Boton">Boton</button>
+            <button class="btn btn-primary" data-toggle="tooltip" data-placement="right" title="Tooltip en Boton">Boton</button>
+          </div>
+      </div>
+    </div>    
+
+    <script src="js/jquery-3.4.1.min.js"></script>   
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
+    <script>
+     $(function(){
+       $('[data-toggle="tooltip"]').tooltip();
+     })
+    </script>  
+  </body>
+</html>

@@ -172,10 +172,13 @@ main .contenido-principal .publicar form button:hover {
 }
 
 /* --- PUBLICACIONES --- */
+
+/*  Agregar espaciado de fondo */
 main .publicacion {
 	margin-bottom: 40px;
 }
 
+/* Cambiamos el tamaño del enlace  */
 main .publicacion .foto a {
 	display: inline-block;
 	width: 60px;
@@ -184,6 +187,7 @@ main .publicacion .foto a {
 	border-radius: 100px;
 }
 
+/* Cambiar tamaño de la imagen para ajustar al enlace. */
 main .publicacion .foto img {
 	width: 100%;
 }
